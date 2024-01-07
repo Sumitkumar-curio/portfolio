@@ -420,11 +420,9 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: sortingvisualiser,
- 
-
-
-];
+   // image: sortingvisualiser,
+  }
+  ];
 
 export {
   services,

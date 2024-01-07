@@ -372,8 +372,7 @@ const projects = [
       },
     ],
     image: portfolio,
-   // source_code_link: "https://github.com/mohitrajput2002/my-portfolio",
-   // live_project_link: "https://mohit-singh-rajput.vercel.app/",
+   
   },
   {
     name: "QCNN Automated medical Image Diagnostics using QML",
@@ -398,8 +397,7 @@ const projects = [
       },
     ],
     image: pglife,
-    //source_code_link: "https://github.com/mohitrajput2002/PG_Life",
-    //live_project_link: "https://github.com/mohitrajput2002/PG_Life",
+    
   },
   {
     name: "Quantum Game - Sum–Hit",
@@ -423,38 +421,7 @@ const projects = [
       },
     ],
     image: sortingvisualiser,
-   // source_code_link:
-     // "https://github.com/mohitrajput2002/sorting-visualizer-project.github.io.git",
-    // live_project_link: "https://sorting-visuallizer.netlify.app/",
-  },
-/*
-  {
-    name: "E-learning Platform and Library Management System Web Development Project",
-    description: "For Converting manual Database to Automation, Issue book, Search Book",
-    tags: [
-      {
-        name: "html, css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "PHP",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Database & SQL",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: sortingvisualiser,
-    source_code_link:
-     // "https://github.com/mohitrajput2002/sorting-visualizer-project.github.io.git",
-   // live_project_link: "https://sorting-visuallizer.netlify.app/",
-    }, */
-
+ 
 
 
 ];

@@ -47,15 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a aspiring software developer with experience in HTML, CSS, and
-        JavaScript, and expertise in frameworks like React, and Bootstrap. I'm a
-        quick learner and to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems. Let's work together to bring
-        our ideas to life!
+       Ready to take on challenges in IT, automation, and quantum technologies. Eager to soak up knowledge and excel in quantum computing, machine learning, and web development—certified in Google Quantum AI and Machine Learning Specialization, pursuing M.Tech in Quantum Technologies at IIT Jodhpur.
       </motion.p>
 
       <button className="mt-10 px-6 py-3 text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-md shadow-md hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50" 
-        onClick={() => window.open("https://drive.google.com/file/d/16xHITIKZF4NNFqm6DCBwFGJrQE354OzZ/view?usp=sharing", "_blank")}
+        onClick={() => window.open("https://drive.google.com/file/d/19PykvRemTyia4HrPDpEkFw03PKbn4hTV/view?usp=sharing", "_blank")}
       >
         <span className="font-semibold">Resume</span>
       </button>

@@ -25,6 +25,7 @@ import {
   pglife,
   sortingvisualiser,
   aws,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -60,56 +61,93 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Quantum Computing",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Machine Learning",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Science",
     icon: backend,
   },
   {
-    title: "Software Developer",
+    title: "Full Stack devloper",
     icon: fullstack,
   },
 ];
 
 const education = [
   {
-    title: "Bachelors in Information Technology",
-    company_name: "Oriental Institute Of Science And Technology, Bhopal",
+    title: "Masters in Quantum technologies - Specialization in Qunatum Computing.",
+    company_name: "Indian Institute of technology Jodhpur",
     icon: oist,
     iconBg: "#fff",
-    date: "2019-2023",
+    date: "2023-2025",
     points: [
-      "Courses undertaken: Data Structures and Algorithms, Operating Systems, Database Management Systems, Distributed Computing, Object Oriented Programming, Computer Architecture, Computer Network, Compiler Design, Computer Graphics & Multimedia, Soft Computing, Cloud Computing, Information Security, Blockchain Technology, Analysis and Design of Algorithm, Artificial Intelligence, Software Engineering, Machine Learning, Data Science, Internet of Things.",
-      "CGPA: 8.88/10",
+
+      "Quantum Computing, Quantum Algorithm, Quantum machine learning, Quantum Optimization, Quantum Cryptography, Quantum Mechanics",
+      "Fundamental of Machine learning",
+      "CGPA: 7.1/10",
     ],
   },
   {
-    title: "Higher Secondary",
-    company_name: "Samaritan Senior Secondary School-CBSE",
-    icon: samaritans,
+    title: "Bachelors in Computer Science and Engineering",
+    company_name: "",
+    icon: karate,
     iconBg: "#fff",
-    date: "2018-2019",
+    date: "2017-2021",
     points: [
-      "Courses undertaken: Physics, Chemistry and Mathematics.",
-      "Percentage: 61.2%",
-      ,
+      "Courses undertaken: Data Structures and Algorithms, Operating Systems, ",
+      "Database Management Systems, Distributed Computing, Object Oriented Programming, Computer Architecture, Computer Network, Compiler Design, Computer Graphics & Multimedia, Soft Computing, Cloud Computing, Information Security, Blockchain Technology, Analysis and Design of Algorithm, Artificial Intelligence",
+      "Machine Learning, Artifical Intelligence, Data Science, Internet of Things.",
+      "CGPA: 8.23/10",
     ],
   },
   {
     title: "Senior Secondary",
-    company_name: "Samaritan Senior Secondary School-CBSE",
+    company_name: "Sheerwood college-CBSE",
+    icon: samaritans,
+    iconBg: "#fff",
+    date: "2017-2021",
+    points: [
+      "Courses undertaken: Physics, Chemistry and Mathematics.",
+      "Percentage: 78.4%",
+      ,
+    ],
+  },
+  {
+    title: "Higher Secondary",
+    company_name: "Sheerwood college-CBSE",
     icon: samaritans,
     iconBg: "#fff",
     date: "2016-2017",
     points: [
       "Courses undertaken: Science, Social Studies, Languages and Mathematics.",
-      "CGPA: 10/10",
+      "CGPA: 7.2/10",
+    ],
+  },
+  {
+    title: "Diploma of Education - Online",
+    company_name: "Latvijas Universitate",
+    icon: samaritans,
+    iconBg: "#fff",
+    date: "2023-2024",
+    points: [
+      "Quantum Comoputing and Quantum Algorithm",
+      "Skills: Qiskit · cirq · Quantum Computing · Python (Programming Language)",
+    ],
+  },
+  {
+    title: "Diploma of Education - Online",
+    company_name: "The Coding School",
+    icon: samaritans,
+    iconBg: "#fff",
+    date: "2023-2024",
+    points: [
+      "Qubit by Qubit is the Quantum Initiative of the Coding School.",
+      "Skills: Qiskit · cirq · Quantum Computing · Python (Programming Language)",
     ],
   },
 ];
@@ -163,82 +201,149 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Programmer Analyst Trainee",
-    company_name: "Cognizant",
+    title: "Associate Software Engineer",
+    company_name: "Accenture",
     icon: cognizant,
     iconBg: "#fff",
-    date: "Upcoming",
-    points: ["Offer in hand"],
+    date: "2021-2022",
+    points: [ "Worked on IT and automation-related tasks, including Managed File Transfer (MFT), Incident Management, ServiceNow, Mulesoft, SmartAutomation (SA), and Testing, Selenium java."]
   },
   {
-    title: "Web Development Intern",
-    company_name: "Next Innovation Technology",
+    title: "Data Science Intern - Remote",
+    company_name: "CodSoft",
     icon: nextinnovation,
-    iconBg: "#fff",
-    date: "Jun 2023 - Aug 2023",
+    iconBg: "white",
+    date: "Dec 2023 - Jan 2024",
     points: [
-      "Developed a web application using HTML, CSS, Javascript, PHP, and Bootstrap for the client.",
-      "Designed user-friendly UI/UX with responsive designs to make it easy for users to navigate through the website. ",
-      "Designed various different websites with responsive designs and dynamic content. ",
+      "Currently interning in Data Science, focusing on projects like movie rating prediction, Iris flower classification, and sales forecasting using Python.",
+      "Demonstrating hands-on experience in data analysis, preprocessing, and machine learning techniques.",
+      "Applying Python skills to solve real-world problems, emphasizing practicality and relevance in the field of data science",
     ],
   },
   {
-    title: "Campus Ambassador Intern: WFH",
-    company_name: "Internshala",
-    icon: internshala,
-    iconBg: "#1294C8",
-    date: "Apr 2021 - Jun 2021",
+    title: "Machine Learning Intern - Remote",
+    company_name: "Navodita",
+    icon: linkedin,
+    iconBg: "white",
+    date: "Dec 2023 - Jan 2024",
     points: [
-      "Raised awareness about Internshala across the entire campus.",
-      "Encouraged students to explore Internshala training programs and internships.",
+      "Developing a Convolutional Neural Network (CNN) model for image classification.",
+      "Targeting datasets like CIFAR-10 or ImageNet to enhance classification accuracy.",
       "Motivated students to enhance their skills by utilizing the opportunities provided by Internshala.",
-      "I stood 279 out of 21,963 students selected from different colleges across India",
+      "Actively exploring optimization techniques for improved model performance in image categorization.",
     ],
   },
 ];
 
 const extracurricular = [
   {
-    title: "1.5K+ Connections on LinkedIn",
-    type: "Achievements",
-    icon: linkedin,
+    title: "Founder of Club-QCIG",
+    type: "QCIG- Quantum Computing Innovators Group",
+   // icon: linkedin,
     iconBg: "#007BB5",
-    date: "April 2023",
-    points: ["Credential ID: mohitsinghrajput"],
-    credential: "https://www.linkedin.com/in/mohitsinghrajput/",
+    date: "Dec 2023- Present",
+    points: ["Initiator of Club at IIT Jodhpur",
+    "Quantum Computing, Quantum Algorithm, Quantum Sensing and device and other specialization",
+    "WorkShop, Seminar and Guest lecture",
+  ],
+    //credential: "",
   },
   {
-    title: "Java (Basic), CSS, SQL (Basic)-HackerRank",
-    type: "Certification",
-    icon: hackerrank,
+    title: "Student Respresentative",
+    type: "Position of Responsibility",
+    icon: oist,
+    iconBg: "white",
+    date: "Oct 2023- Present",
+    points: ["Student Representative of the IDPR (Interdisciplinary Research Platform) department, actively contributing to collaborative initiatives and promoting interdisciplinary research within the academic community.",
+            "At IIT Jodhpur",
+  ],
+    //credential: "",
+  },
+  {
+    title: "Contigent Leader ",
+    type: "Position of Responsibility",
+    //icon: hackerrank,
     iconBg: "#050C18",
-    date: "2022-2023",
+    date: "Dec 2023 - Present",
     points: [
-      "Credential ID: aac000e38dc9",
-      "Credential ID: a274bb1292eb",
-      "Credential ID: b024370fa737",
+      "Inter-Departmental General Championship IIT Jodhpur",
     ],
-    credential: "https://www.hackerrank.com/certificates/aac000e38dc9",
+    //credential: "https://www.hackerrank.com/certificates/aac000e38dc9",
   },
   {
-    title: "Web Development-Internshala",
-    type: "Certification",
+    title: "Python",
+    type: "Great learing, Coursera, Linkedin Certification",
     icon: internshala,
-    iconBg: "#1294C8",
+    //iconBg: "#1294C8",
     date: "Sept 2021",
-    points: ["Credential ID: 281DB109-2DA8-A160-DCBC-C6C0F552B57C"],
-    credential:
-      "https://trainings.internshala.com/verify-certificate/?certificate_number=281DB109-2DA8-A160-DCBC-C6C0F552B57C",
+    points: ["Python Programming, Python for Machine learning"],
+    //credential:
+     // "https://trainings.internshala.com/verify-certificate/?certificate_number=281DB109-2DA8-A160-DCBC-C6C0F552B57C",
   },
   {
-    title: "Combat Sport-Karate",
-    type: "Extracurricular(Hobby)/Combat Sport",
+    title: "Build a Face Recognition Application using Python",
+    type: "GUVI Geek Networks, IITM Research Park",
+    //icon: karate,
+    iconBg: "#CCCFD8",
+    date: "April 2021",
+    points: [
+      "Build a Face Recognition Application using Python",
+      "Machine Learing Basics",
+    ],
+  },
+  {
+    title: "Certified automation practioner ",
+    type: "Accenture",
+    icon: cognizant,
+    iconBg: "#CCCFD8",
+    date: "2021-2022",
+    points: [
+      "Focus: Validates expertise in automation practices within the Accenture framework",
+      "Skills Verified: Proficiency in implementing Accenture's automation solutions and technologies.",
+      "Demonstrates: Solid understanding of automation principles, tools, and best practices.",
+    ],
+  },
+  {
+    title: "GATE",
+    type: " MINISTRY OF EDUCATION, GOVERNMENT OF INDIA",
     icon: karate,
     iconBg: "#CCCFD8",
     date: "2006-2020",
     points: [
-      "State level Gold medalist in Kumite.",
-      "Renshi Cup National Championship Bronze medalist in Kumite.",
+      "Skills: Algorithms · Data Structures · Computer Science",
+    ],
+  },
+  {
+    title: "IOT what is IOT ",
+    type: "Great Learning",
+    //icon: karate,
+    iconBg: "#CCCFD8",
+    date: "2021-2022",
+    points: [
+      "Interconnected Devices: IoT involves connecting various physical devices through the internet, enabling them to communicate and share data.",
+      "Automation and Efficiency: IoT enables automation and enhances efficiency by collecting, analyzing, and leveraging data from interconnected devices.",
+    ],
+  },
+
+  {
+    title: "Quantum Computing Basics and QML ",
+    type: "Quantum Computing India",
+    icon: karate,
+    iconBg: "#CCCFD8",
+    date: "Sep 2023 - Oct 2023",
+    points: [
+      "Education and Research: The program includes educational initiatives covering the basics of QM and Quantum Machine Learning (QML), fostering research in these foundational quantum concepts.",
+  
+    ],
+  },
+  {
+    title: "Prompt Engineering for ChatGPTPrompt Engineering for ChatGPT.",
+    type: "Vanderbilt Universit",
+    icon: karate,
+    iconBg: "#CCCFD8",
+    date: "2021-2022",
+    points: [
+     "Skills: Generative AI · Prompt Engineering · Large Language Models (LLM) · ChatGPT",
     ],
   },
 ];
@@ -267,39 +372,38 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/mohitrajput2002/my-portfolio",
-    live_project_link: "https://mohit-singh-rajput.vercel.app/",
+   // source_code_link: "https://github.com/mohitrajput2002/my-portfolio",
+   // live_project_link: "https://mohit-singh-rajput.vercel.app/",
   },
   {
-    name: "PG Life",
-    description:
-      "The PG-Life Web Application is a platform designed to facilitate the management and search for Paying Guest (PG) accommodations. It allows users to explore available PG options, view details, and connect with potential landlords or tenants.",
+    name: "QCNN Automated medical Image Diagnostics using QML",
+  
+    description: "QCNN project leverages Quantum Machine Learning for efficient and accurate medical image diagnostics, blending quantum computing principles with deep learning techniques for enhanced analysis and diagnosis.",
     tags: [
       {
-        name: "html",
+        name: "Qiskit",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "CNN",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Dataset",
         color: "pink-text-gradient",
       },
       {
-        name: "javascript",
+        name: "python",
         color: "green-text-gradient",
       },
     ],
     image: pglife,
-    source_code_link: "https://github.com/mohitrajput2002/PG_Life",
-    live_project_link: "https://github.com/mohitrajput2002/PG_Life",
+    //source_code_link: "https://github.com/mohitrajput2002/PG_Life",
+    //live_project_link: "https://github.com/mohitrajput2002/PG_Life",
   },
   {
-    name: "Sorting Visualizer",
-    description:
-      "The Sorting Visualizer is a web application that provides a visual representation of various sorting algorithms. It allows users to observe and understand how different sorting algorithms work by animating the sorting process.",
+    name: "Quantum Game - Sum–Hit",
+    description: "Quantum Game development, Shooting Game, Arcade Car has to hit the target",
     tags: [
       {
         name: "html",
@@ -314,15 +418,45 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Qiskit & Python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: sortingvisualiser,
+   // source_code_link:
+     // "https://github.com/mohitrajput2002/sorting-visualizer-project.github.io.git",
+    // live_project_link: "https://sorting-visuallizer.netlify.app/",
+  },
+/*
+  {
+    name: "E-learning Platform and Library Management System Web Development Project",
+    description: "For Converting manual Database to Automation, Issue book, Search Book",
+    tags: [
+      {
+        name: "html, css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Database & SQL",
         color: "blue-text-gradient",
       },
     ],
     image: sortingvisualiser,
     source_code_link:
-      "https://github.com/mohitrajput2002/sorting-visualizer-project.github.io.git",
-    live_project_link: "https://sorting-visuallizer.netlify.app/",
-  },
+     // "https://github.com/mohitrajput2002/sorting-visualizer-project.github.io.git",
+   // live_project_link: "https://sorting-visuallizer.netlify.app/",
+    }, */
+
+
+
 ];
 
 export {

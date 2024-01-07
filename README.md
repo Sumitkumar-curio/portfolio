@@ -1,22 +1,51 @@
-[![Header](https://img.shields.io/badge/Portfolio-Mohit's%203D%20Showcase-brightgreen?style=for-the-badge)](https://mohit-singh-rajput.vercel.app/)
+# Portfolio Website
 
-# Mohit's 3D Portfolio Showcase 🌟
+Welcome to my portfolio website! This space showcases my professional journey, skills, and notable projects. Below, you'll find a brief overview of key sections:
 
-Welcome to my creative corner on the web! 🚀 As a fresher student passionate about 3D web design and visualization, I've crafted this digital haven to showcase my journey into the world of immersive art and design. Whether you're a fellow enthusiast, a potential collaborator, or just someone who stumbled upon my space, I invite you to explore the wonders of my 3D portfolio.
+## About Me
+I am a versatile Associate Software Engineer with expertise in IT, automation, and quantum technologies. Currently pursuing an M.Tech in Quantum Technologies at IIT Jodhpur, I hold a B.Tech in Computer Science and Engineering. Certified in Google Quantum AI and Machine Learning Specialization, my commitment to continuous learning is reflected in my diverse skill set.
 
-## 🎨 About Me
+## Education
+- M.Tech in Quantum Technologies from IIT Jodhpur (CGPA: 7.13)
+- B.Tech in Computer Science and Engineering from Dr. AITH, Kanpur (CGPA: 8.23)
 
-Hey there! I'm Mohit, an Software Engineer and a Web developer with a penchant for turning ideas into visually captivating experiences. Armed with a vivid imagination and a deep curiosity for all things three-dimensional, I'm on a mission to breathe life into pixels and polygons. My passion for 3D design goes beyond the screen – I aim to create virtual realms that leave a lasting impact.
+## Experience
+As an Associate Software Engineer at Accenture, I worked on various IT and automation-related tasks, including Managed File Transfer, Incident Management, ServiceNow, Mulesoft, Smart Automation, and Testing using Selenium in Java.
 
-## 🌐 Explore More
+## Projects
+1. **QCNN Automated Medical Image Diagnostics using QML**
+   - Developed a Quantum Convolutional Neural Network for real-time medical image interpretation.
+   - Applied Quantum Machine Learning techniques, focusing on efficiency and accuracy in diagnostics.
 
-Ready to experience my 3D portfolio? Head over to [mohit-singh-rajput.vercel.app](https://mohit-singh-rajput.vercel.app/) and let the visuals speak for themselves!
+2. **Quantum Game - Sum–Hit**
+   - Designed and developed an interactive shooting game using HTML, CSS, Js, and Qiskit Circuit on Google Collab.
 
-## 📫 Let's Connect
+3. **E-learning Platform and Library Management System**
+   - Led a web development project to automate library processes using HTML, CSS, PHP, MySQL, and Bootstrap.
 
-I'm always excited to connect with fellow creatives and enthusiasts. Whether you have feedback, project ideas, or just want to say hi, feel free to reach out to me:
+## Certifications
+- Introduction to Quantum Computing with Google Quantum AI
+- Machine Learning Specialization from Coursera
+- Neural Networks and Deep Learning from DeepLearning.Ai
 
-- Email: mohit.s.rajput032997@gmail.com
-- LinkedIn: [linkedin.com/in/mohitsinghrajput](https://www.linkedin.com/in/mohitsinghrajput)
+## Skills
+- Qiskit, C/C++, Python, PHP
+- HTML, CSS, PyTorch, NumPy, Linear Algebra
+- Quantum Simulators, Problem Solving
+- Git, LaTeX, MS Office
 
-Let's turn imagination into reality, one pixel at a time! ✨
+## Coursework
+- C and Data Structures and Algorithms
+- Quantum Computing, Quantum Machine Learning, Quantum Algorithms
+- Engineering Mathematics, Database Management Systems, Quantum Mechanic
+
+## Positions of Responsibility
+- Student Representative of IDPR Department at IIT Jodhpur
+- Contingent Leader of Intellia at IIT Jodhpur
+- Group Lead at Accenture training program
+- Active member of Human Values and Ethics Seminar, and blood donation initiatives.
+
+## Contact
+Feel free to connect with me! You can reach me at [sumitkumar.kr1248](mailto:sumitkumar.kr1248@gmail.com).
+
+Thank you for visiting my portfolio!

@@ -40,9 +40,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Mohit Singh Rajput",
+          to_name: "Sumit Kumar",
           from_email: form.email,
-          to_email: "mohit.s.rajput032997@gmail.com",
+          to_email: "sumitkumar.kr1248@gmail.com",
           location: form.location,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -68,7 +68,7 @@ const Contact = () => {
   };
 
   const openLinkedInProfile = () => {
-    window.open("http://linkedin.com/in/mohitsinghrajput", "_blank");
+    window.open("https://www.linkedin.com/in/sumit-kumar-690869195", "_blank");
   };
 
   const openCustomLink = (url) => {
@@ -91,7 +91,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="Mohit Singh Rajput"
+              placeholder="Sumit Kumar"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               disabled
             />
@@ -105,7 +105,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="mohit.s.rajput032997@gmail.com"
+              placeholder="sumitkumar.kr1248@gmail.com"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               disabled
             />
@@ -119,7 +119,7 @@ const Contact = () => {
               name='email'
               value={form.location}
               onChange={handleChange}
-              placeholder="Bhopal, Madhya Pradesh, India"
+              placeholder="Mumbai, India"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               disabled
             />
@@ -127,10 +127,10 @@ const Contact = () => {
 
           <label className="flex flex-col">
             <p className="text-center" style={{ color: "#7C7E80" }}>
-              Copyright &copy; 2023 MR Portfolio <br />
+              Copyright &copy; 2024 Q404 Sumit<br />
               Designed and Developed by
-              <a href="http://linkedin.com/in/mohitsinghrajput" onClick={openLinkedInProfile}>
-                <strong> Mohit Singh Rajput.</strong>
+              <a href="https://www.linkedin.com/in/sumit-kumar-690869195" onClick={openLinkedInProfile}>
+                <strong> Sumit Kumar</strong>
               </a>
             </p>
           </label>

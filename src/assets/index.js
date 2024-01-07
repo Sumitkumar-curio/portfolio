@@ -28,11 +28,23 @@ import internshala from "./company/internshala.webp";
 
 import linkedin from "./company/linkedin.png";
 import hackerrank from "./company/hackerrank.png";
-import karate from "./karate.jpg";
+import karate from "./karate.png";
 
 import portfolio from "./3dportfolio.png";
 import pglife from "./pglife.png";
 import sortingvisualiser from "./sortingvisualiser.png";
+
+/*import accenture from "./company/accenture.png";
+import aktu from "./company/aktu.png";
+import codsoft from "./company/codsoft.png";
+import iitjodhpur from "./company/iitjodhpur.png";
+import latvia from "./company/latvia.png";
+import navodita from "./company/navodita.png";
+import codingschool from "./company/codingschool.png";
+import sheerwood from "./sheerwood.png";
+import logo2 from "./logo2.png";
+import logo2 from "./logo2.svg";  */
+
 
 export {
   logo,
@@ -65,4 +77,17 @@ export {
   portfolio,
   pglife,
   sortingvisualiser,
+
+  /*
+  accenture,
+  aktu,
+  codsoft,
+  iitjodhpur,
+  latvia,
+  navodita,
+  codingschool,
+  sheerwood,
+  logo2,
+  logo2,*/
+
 };

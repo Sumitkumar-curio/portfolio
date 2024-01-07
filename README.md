@@ -46,7 +46,7 @@ As an Associate Software Engineer at Accenture, I worked on various IT and autom
 - Active member of Human Values and Ethics Seminar, and blood donation initiatives.
 
 ## Contact
-Feel free to connect with me! You can reach me at [sumitkumar.kr1248](mailto:sumitkumar.kr1248@gmail.com).
+Feel free to connect with me! You can reach me at [sumitkumar.kr1248@gmail.com](mailto:sumitkumar.kr1248@gmail.com).
 
 Thanks - mohit rajput https://github.com/mohitrajput2002/Portfolio-website
 
